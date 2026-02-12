@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>
+            Table format
+        </title>
+            <style>
+        
+         
+        td{
+            font-family: Bell MT;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+             background-color: rgb(85, 205, 245);
+        }
+
+        th {
+            background-color: lightgray;
+            
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .btn {
+            padding: 5px 10px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: darkblue;
+        }
+    </style>
+        </head>
+        <body>
+            <table class="border">
+                <thead>
+                <tr>
+                    <td>Snapshot of Cover Page </td>
+                    <td>Author Name </td>
+                    <td>Publisher</td>
+                    <td>Price</td> 
+                    <td>Add to Cart Button</td> 
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td data-label="Cover">
+                <img src="https://covers.openlibrary.org/b/id/8221256-L.jpg" alt="Book Cover">
+            </td>
+            <td>James Clear</td>
+            <td>Penguin Books</td>
+            <td>₹499</td>
+            <td>
+                <button class="btn">Add to Cart</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td data-label="Cover">
+                <img src="https://covers.openlibrary.org/b/id/10523338-L.jpg" alt="Book Cover">
+            </td>
+            <td data-label="Author">Robert Kiyosaki</td>
+            <td data-label="Publisher">Plata Publishing</td>
+            <td data-label="Price" class="price">₹399</td>
+            <td data-label="Cart">
+                <button class="btn">Add to Cart</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td data-label="Cover">
+                <img src="https://covers.openlibrary.org/b/id/8231996-L.jpg" alt="Book Cover">
+            </td>
+            <td data-label="Author">Paulo Coelho</td>
+            <td data-label="Publisher">HarperCollins</td>
+            <td data-label="Price" class="price">₹350</td>
+            <td data-label="Cart">
+                <button class="btn">Add to Cart</button>
+            </td>
+        </tr>
+    </tbody>
+            </table>
+        </body>
+  
+</html>
